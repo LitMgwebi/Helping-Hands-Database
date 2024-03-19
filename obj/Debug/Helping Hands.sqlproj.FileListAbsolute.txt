@@ -1,0 +1,10 @@
+c:\Users\lithi\OneDrive\Documentos\Programming\Databases\Helping Hands\bin\Debug\Helping Hands.dacpac
+c:\Users\lithi\OneDrive\Documentos\Programming\Databases\Helping Hands\bin\Debug\Helping Hands.dll
+c:\Users\lithi\OneDrive\Documentos\Programming\Databases\Helping Hands\bin\Debug\Helping Hands.pdb
+c:\Users\lithi\OneDrive\Documentos\Programming\Databases\Helping Hands\obj\Debug\Helping Hands.sqlproj.AssemblyReference.cache
+c:\Users\lithi\OneDrive\Documentos\Programming\Databases\Helping Hands\obj\Debug\Model.xml
+c:\Users\lithi\OneDrive\Documentos\Programming\Databases\Helping Hands\obj\Debug\refactor.xml
+c:\Users\lithi\OneDrive\Documentos\Programming\Databases\Helping Hands\obj\Debug\postdeploy.sql
+c:\Users\lithi\OneDrive\Documentos\Programming\Databases\Helping Hands\obj\Debug\predeploy.sql
+c:\Users\lithi\OneDrive\Documentos\Programming\Databases\Helping Hands\obj\Debug\Helping Hands.dll
+c:\Users\lithi\OneDrive\Documentos\Programming\Databases\Helping Hands\obj\Debug\Helping Hands.pdb

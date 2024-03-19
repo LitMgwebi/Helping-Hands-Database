@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OG27l5ZdAlGsSGW3QCr+DeZGoqT+0o3WYyo4mBbeppZnC/S/m7hYfFYppnYlLQpn6Nzde5oQ2kuET2rf4m2SIA==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\lithi\\OneDrive\\Documentos\\Programming\\Databases\\Helping Hands\\Helping Hands.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lithi\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\lithi\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.0\\microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
