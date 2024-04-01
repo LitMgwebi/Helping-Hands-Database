@@ -133,38 +133,40 @@ This database serves as the backbone for Helping Hands, an innovative online pla
   <summary>CRUD</summary>
 
   ### General Structure
-  <img src="" width=400 /> <img src="" width=400 />
+  <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/93de9f0f-2163-4756-b0e0-3af88aafaeec" width=350 /> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/cd76bf1c-fd9b-4917-b710-eb0558bbdc31" width=350 /> 
 	<br/>
 	This is the general structure for Stored Procedures responsible for Creating, Reading, Updating, and Deleting records from each table. An @Command is coupled with IF-statements to consolidate all CRUD SQL routines pertaining to the same table, thus enhancing organization and maintainability.
 	<br/>
 	<br/>
 	
  ### Create 
- <img src="" width=300/> <img src="" width=600/>
+ <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/77ca1330-c376-48cd-9305-f342eca59671" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/871a6420-0937-4852-895e-7ebfc9612172" width=550/>
 	<br/>
 	Using the `Create command`, a new record is able to be added to the database.
 	<br/>
 	<br/> 
 	
  ### Read
- <img src="" width=450/> <img src="" width=450/>
+ <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/ab36491b-b693-4e39-a787-cc02c1869515" width=400/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/8a309dc9-2f41-47d8-b262-c05ba7bca68d" width=400/>
 	<br/>
 	Using the `GetAll command`, all the records within the database that are active are returned. Using the `GetOne` command in conjunction with a primary key ID returns one record if the record is active.
 	<br/>
 	<br/>
+
 	
  ### Update
- <img src="" width=300/> <img src="" width=600/>
+ <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/32fbe166-2dd9-448e-89da-c36c2bb211eb" width=350/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/3015a7f0-ba98-4a8c-bffc-8c7f96fca750" width=500/>
 	<br/>
 	Using the `Update command` in conjunction with a primary key ID updates the record of the ID.
 	<br/>
 	<br/>
 	
  ### Delete
- <img src="" width=200/> <img src="" width=350/> <img src="" width=350/> 
+ <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/e87887d4-9488-4663-8837-e715faa8ab13" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/d5082ef3-ef0f-4ce6-bfd2-3a27587e6c4b" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/6eea41a0-1893-4d5e-b3c1-370c27cc7209" width=250/> 
 	<br/>
 	Using the `Delete command` in conjunction with a primary key ID performs a soft delete in which the record still exists on the system, but will not be returned when calling the `GetOne` and `GetAll` commands.
 </details>
+
 
 <details>
   <summary>Reports</summary>
