@@ -171,6 +171,92 @@ This database serves as the backbone for Helping Hands, an innovative online pla
 <details>
   <summary>Reports</summary>
 
-  ###
-   <img src="" width=300/> <img src="" width=600/>
+  ### Assigned Patient Contracts
+   <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/731165ce-bf3d-45cf-b189-2e372264f981" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/b9e757f0-b435-444c-80ab-4582cdc771b7" width=600/>
+   <br/>
+   This report returns the contracts a patient has opened and have been taken on by a nurse.
+   <br/>
+   <br/>
+   
+  ### Available Nurses
+   <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/9d7344ba-a25e-438c-8b51-48b31d0d3114" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/82d61074-e3e0-425e-99a1-15f8ea4ea3f9" width=600/>
+   <br/>
+   This report returns the nurses that have signed up to work in a specific suburb.
+   <br/>
+   <br/>
+   
+  ### Care Contracts
+   <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/6f5e2ca0-b9c0-4dee-b7bd-8f58b2b21402" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/d02ddfb6-1cae-439e-8211-454595373069" width=600/>
+   <br/>
+   This report returns the contracts that were started between specified dates for a specific patient.
+   <br/>
+   <br/>
+
+   
+  ### Contract Status
+   <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/c696e58d-8e0c-4982-818c-c603c6969f1f" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/dff529d8-0d49-4b7a-a4b7-a6a5533c0ff0" width=600/>
+   <br/>
+   This report returns the contract that have a specific contract status. <br/>
+   	A contract can only have 3 statuses:<br/>
+    		~ N for "New" - A nurse hasn't taken the contract.<br/>
+      		~ A for "Assigned" - A nurse has taken the contract and has started logging care visits.<br/>
+		~ C for "Closed" - A nurse has closed the contract because the visits have healed the patient.
+   <br/>
+   <br/>
+   
+  ### Contract Visits
+   <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/b86bb35d-8b22-4339-b357-f6dbcda27e53" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/c517ac7d-945e-4217-8178-61bd06421cf4" width=600/>
+   <br/>
+   This report returns the visits that have been booked/undergone for a specific contract.
+   <br/>
+   <br/>
+
+  ### Patient Contracts
+   <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/a057f0af-1dcb-466c-aa5c-f983200928c8" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/0f0668fe-ce72-4158-b8c5-8b1d20c97c65" width=600/>
+   <br/>
+   This report returns all of the contracts a patient has ever started.
+   <br/>
+   <br/>
+   
+  ### Patient Visits
+   <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/083437ce-3557-4483-b57d-4aac34c92bd9" width=300/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/a041b05d-65f0-42c9-963f-b18447be718a" width=350/>
+   <br/>
+   This reports returns all of a patient's visits.
+   <br/>
+   <br/>
+
+  ### Suburb Contracts
+   <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/834e0500-87a3-4336-9bac-d54cf0ea223a" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/9e7d27db-8b53-416b-8821-8a124e894fcf" width=600/>
+   <br/>
+   This report returns the contracts opened in specified suburbs.
+   <br/>
+   <br/>
+
+  ### Nurse Contracts
+   <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/6b994896-0c13-4869-8c8a-f6724354ec57" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/333fe501-7f62-45c5-8f63-2d7e8a73b4f5" width=600/>
+   <br/>
+   This report returns all the contracts a nurse has ever taken on (Closed or Assigned).
+   <br/>
+   <br/>
+   
+  ### Nurse Assigned Contracts
+   <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/0b32fae4-dff4-43b8-9a4f-fb90a0e0e929" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/b9c140fd-525c-4139-a32b-453ecbd2d0bb" width=600/>
+   <br/>
+   This report returns all the contracts a nurse is assigned to.
+   <br/>
+   <br/>
+   
+  ### Contracts by Grade
+   <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/17891c28-7ba2-4d51-881b-638a275c560e" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/4d92a7a3-82b8-4466-a5d6-16f9023f7bea" width=600/>
+   <br/>
+   This report returns all the contracts that have been started in the same suburb as a specified nurse and have the same wound grade as the specified nurse's grade.
+   <br/>
+   <br/>
+
+  ### Nurse Contracts by Status
+   <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/da8270e9-1159-4ddd-a1cb-107e73b6477f" width=250/> <img src="https://github.com/LitMgwebi/Helping-Hands-Database/assets/29978279/36cf262b-2720-4f30-9c42-95c97201f95f" width=600/>
+   <br/>
+   This report returns all the contracts for a specific nurse with a specified contract status.
+   <br/>
+   <br/>
 </details>
